@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  .app{
+      /* position: relative; */
+      width: 100vw;
+      height: 100vh;
+      border: 1px solid;
+      padding: 5px;
+  }
+  .player-container {
+    background-color: #212121;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: #fff;
+    cursor: pointer;
+    transform: translate(0,400%);
+  }
+  .song-name{
+    color: white;
+  }
+  .player-container:hover {
+    background-color: #393939;
+  }
+  .player-card{
+      width: 35%;
+      height: 40%;
+      background-color: rgb(37, 37, 37); 
+      margin: 0 auto;  
+      border-radius: 10px;
+      box-shadow: 7px 7px 126px -27px rgba(0,0,0,0.75);
+  }
+  .active{
+    /* border: 5px solid white; */
+    position: relative;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .active-song{
+    font-size: 1.5rem;
+    color: #fff;
+    position: relative;
+    /* left: 37%; */
+    top: 30%;
+   
+  }
+  .active-artist{
+    font-size: 0.8rem;
+    color: #fff;
+    position: relative;
+    /* left: 37%; */
+    top: 33%;
+   /* border: 1px solid white; */
+  }
+  .control-icon{
+    text-align: center;
+    position: relative;
+    top: calc(100% - 150px);
+    height: 7vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    /* border: 5px solid white; */
+  }
+
+  
